@@ -1,0 +1,33 @@
+/* Scrolling Instructions and Transcript */
+div.scroll {
+    overflow: scroll;
+}
+
+div#instructions .scroll {
+    height: 100px;
+}
+
+div.transcript-container.scroll {
+    height: 300px;
+}
+
+/* Transcript Table */
+tr {
+    border: 1px solid #009688; /* border-width border-style border-color */
+}
+
+.P1 {
+    background-color: #e0f2f1;
+}
+
+.P2 {
+    background-color: #b2dfdb;
+}
+
+.Experimenter {
+    background-color: #80cbc4;
+}
+
+tr .current {
+    border: 3x solid #009688;
+}
